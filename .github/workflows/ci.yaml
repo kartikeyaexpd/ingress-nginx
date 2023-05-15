@@ -84,7 +84,7 @@ jobs:
 
       - name: Set up Go 1.19.2
         id: go
-        uses: actions/setup-go@d0a58c1c4d2b25278816e339b944508c875f3613 # v3.2.0
+        uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753 # v3.2.0
         with:
           go-version: '1.19.2'
 
@@ -150,7 +150,7 @@ jobs:
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.0.2
 
       - name: Setup Go
-        uses: actions/setup-go@d0a58c1c4d2b25278816e339b944508c875f3613 # v3.2.0
+        uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753 # v3.2.0
         with:
           go-version: '1.19.2'
 
@@ -417,7 +417,7 @@ jobs:
       - name: Set up Go 1.19.2
         id: go
         if: ${{ steps.filter-images.outputs.kube-webhook-certgen == 'true' }}
-        uses: actions/setup-go@d0a58c1c4d2b25278816e339b944508c875f3613 # v3.2.0
+        uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753 # v3.2.0
         with:
           go-version: '1.19.2'
 
